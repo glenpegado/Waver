@@ -7,7 +7,8 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-var Slider = require('react-native-slider');
+import Slider from 'react-native-slider'
+// var Slider = require('react-native-slider');
 
 function pad(n, width, z=0) {
   n = n + '';
@@ -51,7 +52,6 @@ const SeekBar = ({
     </View>
   );
 };
-
 export default SeekBar;
 
 const styles = StyleSheet.create({
