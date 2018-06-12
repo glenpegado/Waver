@@ -10,6 +10,7 @@ import TrackDetails from './TrackDetails';
 import SeekBar from './SeekBar';
 import Controls from './Controls';
 import Video from 'react-native-video';
+
 // import TrackPlayer from 'react-native-track-player'
 
 export default class Player extends Component {

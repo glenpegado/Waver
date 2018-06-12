@@ -3,6 +3,7 @@ import Player from './Player';
 import Video from 'react-native-video';
 
 
+
 export const TRACKS = [
   {
     title: 'Stressed Out',
